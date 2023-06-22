@@ -11,11 +11,11 @@ def greet():
         message = 'Good evening'
     return message
  
-def Hello(name):
+def hello(name):
     message = 'Hello, ' + name + '-san!'
     return message
 
-greet(message)
+greet()
 
 
-greet('Inoue')
+hello('Inoue')
